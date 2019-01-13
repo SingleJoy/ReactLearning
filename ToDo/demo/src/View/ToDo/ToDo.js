@@ -7,13 +7,15 @@ const array=[
     {name:'zhang',age:'22'},
     {name:'wang',age:'20'},
     {name:'chen',age:'20'},
-]
+];
 
 class ToDo extends React.Component{
     constructor(props){
         super(props);
         this.inputName=this.inputName.bind(this);
         this.inputAge=this.inputAge.bind(this);
+        this.cutItemToDo=this.cutItemToDo.bind(this);
+
         this.state=({
             name:'',
             age:'',
@@ -31,17 +33,23 @@ class ToDo extends React.Component{
             age:event.target.value
         })
     }
-    cutItem(index){
-       array.splice(index,1)
-      this.setState({
-          array:array
-      })
+    cutItemToDo(index){
 
-    }
-    AddItem(){
-     let arrayA=this.state.array.concat({name:this.state.name, age:this.state.age});
+       let arrayA=this.state.array;
+       arrayA.splice(index,1);
         this.setState({
             array:arrayA
+        })
+
+    }
+    addItem(){
+        console.log(1111)
+        let arrayB=this.state.array;
+            arrayB.concat({name:this.state.name, age:this.state.age});
+        this.setState({
+            array:arrayB,
+            name:'',
+            age:''
         })
     }
     render() {
@@ -54,20 +62,20 @@ class ToDo extends React.Component{
                             <li key={index} data-title={index}>
                                 {item.name}-----
                                 {item.age}----
-                                <span>
-                                    <ButtonCut index={index} cutItem={this.cutItem.bind(this)}/>
-                                </span>
+                                <div className='pStyle'>
+                                    <ButtonCut index={index} cutItem={this.cutItemToDo}/>
+                                </div>
                             </li>
                         )
                     })
                 }
-                <li>
-                    <p className='pStyle'><input className='inputDefault' placeholder='input name' onChange={this.inputName}/></p>
-                    <p className='pStyle'><input className='inputDefault' placeholder='input age' onChange={this.inputAge}/></p>
-                    <p className='pStyle'>
-                        <ButtonAdd  AddItem={this.AddItem.bind(this)}/>
-                      </p>
-                </li>
+                    <li>
+                        <p className='pStyle'><input className='inputDefault' placeholder='input name' onChange={this.inputName}/></p>
+                        <p className='pStyle'><input className='inputDefault' placeholder='input age' onChange={this.inputAge}/></p>
+                        <div className='pStyle'>
+                            <ButtonAdd  AddItem={this.addItem.bind(this)}/>
+                        </div>
+                    </li>
                 </ul>
             </div>
         );
