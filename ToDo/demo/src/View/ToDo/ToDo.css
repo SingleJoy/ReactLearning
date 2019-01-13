@@ -1,0 +1,9 @@
+.pStyle{
+    display: inline-block;
+}
+.pStyle input{
+    width: 60px;
+    height: 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
