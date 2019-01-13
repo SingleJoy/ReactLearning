@@ -15,6 +15,7 @@ class ToDo extends React.Component{
         this.inputName=this.inputName.bind(this);
         this.inputAge=this.inputAge.bind(this);
         this.cutItemToDo=this.cutItemToDo.bind(this);
+        this.addItem=this.addItem.bind(this);
 
         this.state=({
             name:'',
@@ -43,9 +44,11 @@ class ToDo extends React.Component{
 
     }
     addItem(){
-        console.log(1111)
+
         let arrayB=this.state.array;
-            arrayB.concat({name:this.state.name, age:this.state.age});
+
+          arrayB.push({name:this.state.name, age:this.state.age});
+
         this.setState({
             array:arrayB,
             name:'',
@@ -73,7 +76,7 @@ class ToDo extends React.Component{
                         <p className='pStyle'><input className='inputDefault' placeholder='input name' onChange={this.inputName}/></p>
                         <p className='pStyle'><input className='inputDefault' placeholder='input age' onChange={this.inputAge}/></p>
                         <div className='pStyle'>
-                            <ButtonAdd  AddItem={this.addItem.bind(this)}/>
+                            <ButtonAdd  addItem={this.addItem}/>
                         </div>
                     </li>
                 </ul>
