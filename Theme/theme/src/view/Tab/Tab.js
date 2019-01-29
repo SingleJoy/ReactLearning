@@ -1,5 +1,6 @@
 import React from 'react'
-import Button from '../Button/Button'
+
+import './Tab.scss'
 
 class Tab extends React.Component{
     constructor(props){
@@ -8,7 +9,8 @@ class Tab extends React.Component{
     render(){
         return(
             <div>
-               <Button/>
+              <button className="light">浅色</button>
+              <button className="dark">深色</button>
             </div>
         )
     }
