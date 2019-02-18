@@ -2,6 +2,19 @@ import React, { Component } from 'react';
 import './OrderItem.scss';
 
 class OrderItem extends Component {
+    constructor(props){
+        super(props);
+        this.state={
+            comment:'',
+            star:0,
+            editing:false
+        }
+    }
+    handleComment=(event)=>{
+      this.setState({
+          comment:event.value
+      })
+    }
     render() {
         const {picture,name,title,price,commented}=this.props.data;
         return (
@@ -15,10 +28,8 @@ class OrderItem extends Component {
                         <p className="product-title">{title}</p>
                         <p className="product-price">{price}</p>
                     </div>
-
-
                 </div>
-                <div className="comment">
+                <div className="comment" onClick={this.editingComment}>
                     {
                         commented ?(
                             <button className="comment-btn" >评价</button>
@@ -29,6 +40,34 @@ class OrderItem extends Component {
 
             </div>
         )
+    }
+    renderEditCommentArea(){
+       return(
+          <div className="comment-area">
+              <textarea onChange={this.handleComment} value={this.state.comment}></textarea>
+              <div className="comment-area">
+                  <button className="submit">提交</button>
+                  <button className="quit">取消</button>
+              </div>
+          </div>
+       )
+    }
+    renderCommentStar(){
+        const {star}=this.star;
+        return(
+            <div className="starArea">
+                {
+                    [1,2,3,4,5].map((item,index)=>{
+                        const light=star>=item?'light':'';
+                        return <span key={index} className={light}>☆</span>
+                    }
+                )
+                }
+            </div>
+        )
+    }
+    editingComment(){
+
     }
 }
 
