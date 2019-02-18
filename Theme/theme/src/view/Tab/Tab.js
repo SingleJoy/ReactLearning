@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './Tab.scss'
 
 class Tab extends React.Component{

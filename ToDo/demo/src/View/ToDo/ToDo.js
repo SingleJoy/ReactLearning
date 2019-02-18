@@ -16,7 +16,6 @@ class ToDo extends React.Component{
         this.inputAge=this.inputAge.bind(this);
         this.cutItemToDo=this.cutItemToDo.bind(this);
         this.addItem=this.addItem.bind(this);
-
         this.state=({
             name:'',
             age:'',
@@ -35,7 +34,6 @@ class ToDo extends React.Component{
         })
     }
     cutItemToDo(index){
-
        let arrayA=this.state.array;
        arrayA.splice(index,1);
         this.setState({
@@ -44,11 +42,8 @@ class ToDo extends React.Component{
 
     }
     addItem(){
-
         let arrayB=this.state.array;
-
           arrayB.push({name:this.state.name, age:this.state.age});
-
         this.setState({
             array:arrayB,
             name:'',
@@ -56,7 +51,6 @@ class ToDo extends React.Component{
         })
     }
     render() {
-
         return(
             <div className="list">
                 <ul>{
