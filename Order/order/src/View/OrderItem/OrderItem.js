@@ -40,11 +40,21 @@ class OrderItem extends Component {
     }
 
     quitComment=()=>{
-        this.setState({
-            comment:this.props.data.comment||'',
-            star:this.props.data.star||0,
-            editing:false
-        })
+        let editing=this.state.editing;
+        const {commented}=this.props.data;
+        if(!commented){
+            this.setState({
+                comment:'',
+                star:0,
+                editing:!editing
+            })
+        }else {
+            this.setState({
+                comment:this.props.data.comment,
+                star:this.props.data.star,
+                editing:!editing
+            })
+        }
     }
 
     submitComment=()=>{
@@ -110,7 +120,7 @@ class OrderItem extends Component {
                             (
                                 <div>
                                     <button className="submit">提交</button>
-                                    <button className="quit" >取消</button>
+                                    <button className="quit" onClick={this.quitComment.bind(this)}>取消</button>
                                 </div>
                             ):
                             (
