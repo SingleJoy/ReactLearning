@@ -20,7 +20,6 @@ class OrderItem extends Component {
     }
 
     editingComment=()=>{
-
         let editing=this.state.editing;
         const {commented}=this.props.data;
         if(!commented){
@@ -36,7 +35,6 @@ class OrderItem extends Component {
                 editing:!editing
             })
         }
-
     }
 
     quitComment=()=>{
@@ -60,7 +58,6 @@ class OrderItem extends Component {
     submitComment=()=>{
         const  {id}=this.props.data;
         const {comment,star}=this.state;
-
         this.props.submitComment(id,comment,star);
         let editing=this.state.editing;
         this.setState({
@@ -72,7 +69,6 @@ class OrderItem extends Component {
     }
 
     setStar=(index)=>{
-
         this.setState({
             star:index+1
         })
@@ -129,7 +125,6 @@ class OrderItem extends Component {
                                     <button className="quit" onClick={this.quitComment.bind(this)}>取消</button>
                                 </div>
                             )
-
                     }
 
                 </div>
