@@ -5,16 +5,69 @@ class OrderItem extends Component {
     constructor(props){
         super(props);
         this.state={
-            comment:'',
-            star:0,
+            comment:props.data.comment||'',
+            star:props.data.star||0,
             editing:false
         }
+        this.editingComment=this.editingComment.bind(this);
     }
+
     handleComment=(event)=>{
-      this.setState({
-          comment:event.value
-      })
+        console.log(event.target.value);
+        this.setState({
+            comment:event.target.value
+        })
     }
+
+    editingComment=()=>{
+
+        let editing=this.state.editing;
+        const {commented}=this.props.data;
+        if(!commented){
+            this.setState({
+                comment:'',
+                star:0,
+                editing:!editing
+            })
+        }else {
+            this.setState({
+                comment:this.props.data.comment,
+                star:this.props.data.star,
+                editing:!editing
+            })
+        }
+
+    }
+
+    quitComment=()=>{
+        this.setState({
+            comment:this.props.data.comment||'',
+            star:this.props.data.star||0,
+            editing:false
+        })
+    }
+
+    submitComment=()=>{
+        const  {id}=this.props.data;
+        const {comment,star}=this.state;
+
+        this.props.submitComment(id,comment,star);
+        let editing=this.state.editing;
+        this.setState({
+            editing:!editing,
+            comment:this.props.data.comment||'',
+            star:this.props.data.star||0,
+        });
+
+    }
+
+    setStar=(index)=>{
+
+        this.setState({
+            star:index+1
+        })
+    }
+
     render() {
         const {picture,name,title,price,commented}=this.props.data;
         return (
@@ -29,46 +82,71 @@ class OrderItem extends Component {
                         <p className="product-price">{price}</p>
                     </div>
                 </div>
-                <div className="comment" onClick={this.editingComment}>
+                <div className="comment" >
                     {
-                        commented ?(
-                            <button className="comment-btn" >评价</button>
-                        ):( <button className="comment-btn active" >已评价</button>)
+                        commented ?
+                            (<button className="comment-btn active" onClick={()=>this.editingComment()} >已评价</button>) :
+                            (<button className="comment-btn" onClick={()=>this.editingComment()}>评价</button>)
                     }
-
                 </div>
+                {
+                    this.state.editing?this.renderEditCommentArea():null
+                }
 
             </div>
         )
     }
+
     renderEditCommentArea(){
-       return(
-          <div className="comment-area">
-              <textarea onChange={this.handleComment} value={this.state.comment}></textarea>
-              <div className="comment-area">
-                  <button className="submit">提交</button>
-                  <button className="quit">取消</button>
-              </div>
-          </div>
-       )
+        const {comment}=this.state;
+        const {commented}=this.props.data;
+        return(
+            <div className="comment-area">
+                <textarea onChange={this.handleComment} value={comment} disabled={commented}></textarea>
+                {this.renderCommentStar()}
+                <div className="comment-operate">
+                    {
+                        commented?
+                            (
+                                <div>
+                                    <button className="submit">提交</button>
+                                    <button className="quit" >取消</button>
+                                </div>
+                            ):
+                            (
+                                <div>
+                                    <button className="submit" onClick={this.submitComment.bind(this)}>提交</button>
+                                    <button className="quit" onClick={this.quitComment.bind(this)}>取消</button>
+                                </div>
+                            )
+
+                    }
+
+                </div>
+            </div>
+        )
     }
+
     renderCommentStar(){
-        const {star}=this.star;
+        const {star}=this.state;
+        const {commented}=this.props.data;
         return(
             <div className="starArea">
                 {
                     [1,2,3,4,5].map((item,index)=>{
-                        const light=star>=item?'light':'';
-                        return <span key={index} className={light}>☆</span>
-                    }
-                )
+                            const light=star>=item?'light':'';
+                            return(
+                                commented ?
+                                    (<span key={index} className={light}>☆</span>):
+                                    (<span key={index} className={light} onClick={this.setStar.bind(this,index)}>☆</span>)
+                            )
+                        }
+                    )
                 }
             </div>
         )
     }
-    editingComment(){
 
-    }
 }
 
 export default OrderItem;
