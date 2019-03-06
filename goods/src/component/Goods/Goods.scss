@@ -1,0 +1,42 @@
+.goods{
+   h4{
+     text-align: center;
+     padding: 10px 0;
+   }
+  .goods-content{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    .back{
+      a{
+
+      }
+    }
+    img{
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .name{
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      padding: 5px;
+    }
+    .price{
+      color: red;
+      padding:0 0 5px 5px;
+    }
+  }
+  .goods-detail{
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    h4{
+      text-align: left;
+    }
+    .detail{
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+  }
+}
