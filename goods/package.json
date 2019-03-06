@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "node-sass": "^4.11.0",
     "react": "^16.8.3",
+    "react-app-rewired": "^1.6.2",
     "react-dom": "^16.8.3",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
@@ -27,5 +28,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-app-rewired": "^1.6.2"
+  }
 }
