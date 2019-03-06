@@ -8,15 +8,15 @@ class OrderItem extends Component {
             comment:props.data.comment||'',
             star:props.data.star||0,
             editing:false
-        }
+        };
         this.editingComment=this.editingComment.bind(this);
     }
 
     handleComment=(event)=>{
-        console.log(event.target.value);
+        // console.log(event.target.value);
         this.setState({
             comment:event.target.value
-        })
+        });
     }
 
     editingComment=()=>{
@@ -27,13 +27,13 @@ class OrderItem extends Component {
                 comment:'',
                 star:0,
                 editing:!editing
-            })
+            });
         }else {
             this.setState({
                 comment:this.props.data.comment,
                 star:this.props.data.star,
                 editing:!editing
-            })
+            });
         }
     }
 
@@ -45,13 +45,13 @@ class OrderItem extends Component {
                 comment:'',
                 star:0,
                 editing:!editing
-            })
+            });
         }else {
             this.setState({
                 comment:this.props.data.comment,
                 star:this.props.data.star,
                 editing:!editing
-            })
+            });
         }
     }
 
@@ -65,14 +65,13 @@ class OrderItem extends Component {
             comment:this.props.data.comment||'',
             star:this.props.data.star||0,
         });
-
-    }
+    };
 
     setStar=(index)=>{
         this.setState({
             star:index+1
         })
-    }
+    };
 
     render() {
         const {picture,name,title,price,commented}=this.props.data;

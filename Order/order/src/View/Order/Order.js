@@ -19,11 +19,10 @@ let data =
             "name":"2222222222",
             "title":"商品简称222222222222",
             "price":"￥29.9元",
-            "commented":false,    //商品是否已经评价了
+            "commented":true,    //商品是否已经评价了
             "comment":'',   //评价内容
-            "star":0
+            "star":1
         },
-
 
         {
             "id":"3",
@@ -44,7 +43,6 @@ class Order extends Component {
         this.state={
             data:data
         };
-
         this.submitComment=this.submitComment.bind(this);
     }
     componentDidMount() {
@@ -73,7 +71,7 @@ class Order extends Component {
              star,
              commented:true
          }:item
-        })
+        });
         this.setState({
             data:newData
         })
