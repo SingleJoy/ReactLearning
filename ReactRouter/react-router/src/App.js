@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link ,Redirect} from "react-router-dom";
 import './assets/css/index.css'
 import Header from './components/Header/Header';
 import News from './components/News/News'
@@ -8,6 +8,7 @@ import NewsDetail from './components/NewsDetail/NewsDetail'
 import Product from './components/Product/Product'
 import ProductDetail from './components/ProductDetail/ProductDetail'
 import Footer from './components/Footer/Footer'
+import Login from './components/Login/Login'
 
 class App extends Component {
 
@@ -29,6 +30,7 @@ class App extends Component {
              <Route  path="/Product" component={Product}/>
              <Route  path="/ProductDetail" component={ProductDetail}/>
              <Route  path="/Footer" component={Footer}/>
+             <Route  path="/Login" component={Login}/>
              </div>
          </Router>
      )

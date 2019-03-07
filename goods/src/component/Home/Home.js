@@ -46,6 +46,7 @@ class Home extends Component {
                                      item.list.map((item,index)=>{
                                          return(
                                              <li key={index} >
+                                                 {/*<Link to={`/Goods/?id=${item.id}`}>*/}
                                                  <Link to={`/Goods/${item._id}`} >
                                                      <div className="inner">
                                                          <img  src={`${this.state.domain}${item.img_url}`} alt={item.title}/>

@@ -7,7 +7,7 @@ class Goods extends Component {
     constructor(props){
         super(props);
         this.state=({
-            list:'',
+            list:[],
             domain:'http://a.itying.com/'
         })
     }
@@ -27,6 +27,7 @@ class Goods extends Component {
 
     componentDidMount() {
        let id=this.props.match.params.id;
+        // url.parse(this.props.location.search,true).query;
        this.requestData(id)
     }
 
@@ -38,15 +39,18 @@ class Goods extends Component {
                     <div className="back">
                         <Link to="/" >返回</Link>
                     </div>
-                    <img src={`${this.state.domain}${img_url}`} alt={title}/>
+                    {
+                        img_url?<img src={`${this.state.domain}${img_url}`} alt={title}/>:''
+                    }
+
                     <p className="name">{title}</p>
                     <p className="price">{price}/份</p>
                 </div>
                 <div className="goods-detail">
                     <h4>商品详情</h4>
-                    <p className="detail">
-                        {content}
-                    </p>
+                    <div className="detail">
+                        <div dangerouslySetInnerHTML={{__html:content}} ></div>
+                    </div>
                 </div>
             </div>
         )

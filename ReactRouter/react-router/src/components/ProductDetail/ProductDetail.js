@@ -6,7 +6,6 @@ class ProductDetail extends Component {
 
     }
 
-
     componentDidMount() {
         let id=url.parse(this.props.location.search,true).query;
         console.log(id)
