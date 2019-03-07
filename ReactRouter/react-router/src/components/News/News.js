@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
-import {Link} from "react-router-dom"
+
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+import NewsDetail from '../NewsDetail/NewsDetail';
+
 const newsList=[
     {'id':1,title:'vue',"detail":'vue vue vue'},
     {'id':2,title:'react',"detail":'react 视图UI框架'},
     {'id':3,title:'vue-router',"detail":'vue-router'},
     {'id':4,title:'react-router',"detail":'react-router'},
-]
-const red={
-    color:'#ff1100',
-}
+];
 
 class News extends Component {
 
@@ -21,7 +22,7 @@ class News extends Component {
                         newsList.map((item)=>{
                             return(
                                 <li key={item.id} className="newsLi">
-                                  <Link to={`/NewsDetail/${item.id}`}>
+                                  <Link to={`${this.props.match.url}/NewsDetail/${item.id}`}>
                                       <span className='red'>{item.id}.</span>
                                       {item.detail}
                                       </Link>
@@ -31,6 +32,9 @@ class News extends Component {
                         })
                     }
                 </ul>
+                <div>
+                    <Route exact path={`${this.props.match.url}/NewDetail`} component={NewsDetail}/>
+                </div>
 
             </div>
         )
