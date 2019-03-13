@@ -1,23 +1,52 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React,{Component} from 'react';
 
-// import DatePick from './view/DataPick/DataPick'
-import Buttons from './view/Buttons/Buttons'
-import './App.css'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-class App extends React.Component{
+import routers from "./router/router"
+import './App.scss'
+
+class App extends Component{
 
 
     render() {
         return (
-            <div className="content">
-                <div className="list">
-                    <div className="list-item">
-                        <h3>antd Button</h3>
-                        <Buttons/>
+            <Router>
+                <section className="app">
+
+                    <div className="header">
+                        <p>antd design</p>
                     </div>
-                </div>
-            </div>
+
+                    <section className="body">
+                        <div className="side">
+                            <Link to="/">Button</Link>
+                            <Link to="/DatePick">DatePick</Link>
+                            <Link to="/Icons">Icons</Link>
+                            <Link to="/Rows">Rows</Link>
+                        </div>
+                        <section className="container">
+                            {
+                                routers.map((route,index)=>{
+                                    if(route.exact){
+                                        return(
+                                            <Route key={index} path={route.path} exact={route.exact} render={props=>(
+                                                <route.component{...props} routes={route.routes}/>
+                                            )}/>
+                                        )
+                                    }else {
+                                        return(
+                                            <Route key={index} path={route.path} render={props=>(
+                                                <route.component{...props} routes={route.routes}/>
+                                            )}/>
+                                        )
+                                    }
+                                })
+                            }
+                        </section>
+                    </section>
+
+                </section>
+            </Router>
         )
     }
 }
