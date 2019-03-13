@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea5e847-96aa-4be9-8245-ce698c632187" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ReactRouter/projectrouter/src/component/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactRouter/projectrouter/src/component/Shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactRouter/projectrouter/src/component/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactRouter/projectrouter/src/route/Router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/News/News.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/News/NewsBody.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/News/NewsFooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/News/NewsHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReactRouter/react-router/src/routers/routers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/projectrouter/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/projectrouter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/projectrouter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/projectrouter/.idea/projectrouter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/projectrouter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/projectrouter/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/projectrouter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactRouter/projectrouter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/projectrouter/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactRouter/projectrouter/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/projectrouter/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactRouter/projectrouter/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReactRouter/react-router/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactRouter/react-router/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReactRouter/react-router/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactRouter/react-router/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/Login/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/News/News.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/NewsDetail/NewsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/News/NewsDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/ProductDetail/ProductDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactRouter/react-router/src/components/ProductDetail/ProductDetail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Goods/Goods.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Goods/Goods.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,29 +43,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/Goods/Goods.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="706">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="33" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/Home/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/component/Home/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="50" column="76" selection-start-line="50" selection-start-column="76" selection-end-line="50" selection-end-column="76" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/Goods/Goods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="256">
+              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -50,15 +74,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+        <entry file="file://$PROJECT_DIR$/src/router/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="270">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -66,14 +97,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/component/Home/Home.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/router/router.js" />
         <option value="$PROJECT_DIR$/src/component/Goods/Goods.scss" />
         <option value="$PROJECT_DIR$/src/component/Goods/Goods.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="37" />
     <option name="y" value="82" />
     <option name="width" value="1108" />
@@ -118,6 +150,12 @@
               <item name="component" type="462c0819:PsiDirectoryNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="goods" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,7 +165,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ReactRouter/projectrouter" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551943682595" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../wechat/wechat" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\Administrator\Desktop\React\ReactLearning\goods\node_modules\eslint" />
@@ -158,17 +197,18 @@
       <option name="presentableId" value="Default" />
       <updated>1551859520899</updated>
       <workItem from="1551859522066" duration="4500000" />
-      <workItem from="1551921887518" duration="1800000" />
+      <workItem from="1551921887518" duration="4386000" />
+      <workItem from="1551941693534" duration="1860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6300000" />
+    <option name="totallyTimeSpent" value="10746000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20498915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20878525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -202,34 +242,44 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/component/Goods/Goods.scss">
+    <entry file="file://$PROJECT_DIR$/src/component/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Goods/Goods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="570">
+          <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Home/Home.js">
+    <entry file="file://$PROJECT_DIR$/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="50" column="76" selection-start-line="50" selection-start-column="76" selection-end-line="50" selection-end-column="76" />
+        <state relative-caret-position="270">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Goods/Goods.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Goods/Goods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

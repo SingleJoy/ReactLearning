@@ -13,7 +13,6 @@ class NewsDetail extends Component {
               <h2>
                   {this.props.match.params.id}
               </h2>
-
             </div>
         )
     }

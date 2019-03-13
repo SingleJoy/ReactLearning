@@ -1,42 +1,38 @@
 import React, {Component} from 'react';
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
-import NewsDetail from '../NewsDetail/NewsDetail';
-
-const newsList=[
-    {'id':1,title:'vue',"detail":'vue vue vue'},
-    {'id':2,title:'react',"detail":'react 视图UI框架'},
-    {'id':3,title:'vue-router',"detail":'vue-router'},
-    {'id':4,title:'react-router',"detail":'react-router'},
-];
+import './News.scss';
 
 class News extends Component {
+    constructor(props){
+        super(props)
+    }
+    componentDidMount() {
+        console.log(this.props.routes)
+    }
 
     render() {
         return (
-            <div >
-                <h2>params传值</h2>
-                <ul>
-                    {
-                        newsList.map((item)=>{
-                            return(
-                                <li key={item.id} className="newsLi">
-                                  <Link to={`${this.props.match.url}/NewsDetail/${item.id}`}>
-                                      <span className='red'>{item.id}.</span>
-                                      {item.detail}
-                                      </Link>
+            <Router>
+                <div>
+                    <h2>router传值</h2>
 
-                                </li>
+                    <header className="news-header">
+                        <Link to='/News/'>News</Link>
+                        <Link to='/News/NewsBody'>NewsBody</Link>
+                        <Link to='/News/NewsDetail'>NewsDetail</Link>
+                        <Link to='/News/NewsFooter'>NewsFooter</Link>
+                    </header>
+                    {
+                        this.props.routes.map((item,index)=>{
+                            return(
+                                <Route key={index} exact path={item.path} component={item.component}></Route>
                             )
                         })
                     }
-                </ul>
-                <div>
-                    <Route exact path={`${this.props.match.url}/NewDetail`} component={NewsDetail}/>
                 </div>
 
-            </div>
+            </Router>
         )
     }
 }

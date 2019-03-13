@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import {BrowserRouter as Router,Route} from "react-router-dom"
-import Home from './component/Home/Home';
-import Goods from './component/Goods/Goods'
+
+import routes from './router/router'
 
 import './App.scss';
 
@@ -12,11 +12,20 @@ class App extends Component {
             <Router>
                 <div className="App">
 
+                    {
+                        routes.map((routeItem,index)=>{
+                            if(routeItem.exact){
+                                return(
+                                    <Route exact path={routeItem.path} key={index} component={routeItem.component}></Route>
+                                )
+                            }else{
+                                return(
+                                    <Route  path={routeItem.path} key={index} component={routeItem.component}></Route>
+                                )
+                            }
 
-                    <div>
-                        <Route exact path="/" component={Home}/>
-                        <Route  path="/Goods/:id" component={Goods}/>
-                    </div>
+                        })
+                    }
 
                 </div>
             </Router>

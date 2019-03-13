@@ -3,7 +3,6 @@ import url from  'url';
 class ProductDetail extends Component {
     constructor(props) {
         super(props);
-
     }
 
     componentDidMount() {
