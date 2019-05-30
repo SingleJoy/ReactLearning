@@ -7,7 +7,7 @@ class ButtonCut extends React.Component{
     }
 
     render(){
-        let index=this.props.index
+        let index=this.props.index;
         return(
             <div>
                 <button onClick={()=>this.props.cutItem(index)}>-</button>

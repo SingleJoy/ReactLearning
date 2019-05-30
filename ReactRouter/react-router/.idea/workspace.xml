@@ -2,33 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26e396c2-ffba-45b7-86da-6f827efb3139" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../projectrouter/src/component/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projectrouter/src/component/Shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projectrouter/src/component/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projectrouter/src/route/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/News.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/NewsBody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/NewsFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/NewsHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routers/routers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../goods/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectrouter/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectrouter/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectrouter/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectrouter/.idea/projectrouter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectrouter/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectrouter/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectrouter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../projectrouter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectrouter/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../projectrouter/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectrouter/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../projectrouter/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home/Home.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/HomeContainer/HomeContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/HomeLeft/HomeLeft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/HomeTop/HomeTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/News.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsDetail/NewsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/News/NewsDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductDetail/ProductDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductDetail/ProductDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../goods/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../goods/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../goods/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../goods/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/News/News.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/News/News.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/News/News.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/News/NewsBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/News/NewsBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/News/NewsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/News/NewsDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/News/NewsFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/News/NewsFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/News/NewsHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/News/NewsHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/Product/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductDetail/ProductDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OldComponent/ProductDetail/ProductDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routers/routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/routers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/Theme.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../antd/antd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../antd/antd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redux/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../redux/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redux/src/actions/postActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../redux/src/actions/postActions.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="73" />
+            <state relative-caret-position="180">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="e#1#42#0" expanded="true" />
               </folding>
@@ -51,22 +53,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Login/Login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/components/Home/Home/Home.sass">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ProductDetail/ProductDetail.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/HomeTop/HomeTop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -74,32 +69,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routers/routers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+            <state relative-caret-position="450">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
-                <element signature="e#0#49#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/News/News.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/Home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/News/News.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -153,15 +136,19 @@
         <option value="$PROJECT_DIR$/src/components/News/NewsFooter.js" />
         <option value="$PROJECT_DIR$/src/components/Login/Login.js" />
         <option value="$PROJECT_DIR$/src/components/ProductDetail/ProductDetail.js" />
-        <option value="$PROJECT_DIR$/src/routers/routers.js" />
         <option value="$PROJECT_DIR$/src/components/News/News.js" />
         <option value="$PROJECT_DIR$/src/components/News/News.scss" />
+        <option value="$PROJECT_DIR$/src/routers/routers.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/Home/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/HomeContainer/HomeContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/HomeLeft/HomeLeft.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/HomeTop/HomeTop.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="37" />
-    <option name="y" value="82" />
+    <option name="x" value="798" />
+    <option name="y" value="49" />
     <option name="width" value="1108" />
     <option name="height" value="975" />
   </component>
@@ -174,6 +161,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,69 +169,32 @@
               <item name="react-router" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-router" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react-router" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-router" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-router" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-router" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-router" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-router" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-router" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-router" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="News" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-router" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-router" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductDetail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-router" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-router" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551942112390" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../goods" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557459973280" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\React\ReactLearning\ReactRouter\react-router\src\components\News" />
-      <recent name="C:\Users\Administrator\Desktop\React\ReactLearning\ReactRouter\react-router\src\view" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\React\ReactLearning\ReactRouter\react-router" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\React\ReactLearning\ReactRouter\react-router\src\components\OldComponent" />
+      <recent name="C:\Users\Administrator\Desktop\React\ReactLearning\ReactRouter\react-router\src\components\News" />
+      <recent name="C:\Users\Administrator\Desktop\React\ReactLearning\ReactRouter\react-router\src\view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,11 +228,14 @@
       <workItem from="1551863954828" duration="1593000" />
       <workItem from="1551921881125" duration="3854000" />
       <workItem from="1551930887824" duration="6154000" />
+      <workItem from="1557456119953" duration="247000" />
+      <workItem from="1557456691934" duration="3244000" />
+      <workItem from="1557815623723" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32434000" />
+    <option name="totallyTimeSpent" value="35935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -293,7 +247,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4988263" visible="true" weight="0.19360086" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4988263" visible="true" weight="0.20498915" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298122" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -306,6 +260,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -315,6 +270,8 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Flutter Inspector" order="9" />
+      <window_info anchor="right" id="Flutter Outline" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,21 +312,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/Footer/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/Product.js">
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/Product/Product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="23" column="78" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="78" />
@@ -379,62 +329,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/News/NewsDetail.js">
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/News/NewsDetail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/News/NewsHeader.js">
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/News/NewsHeader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/News/NewsBody.js">
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/News/NewsBody.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/News/NewsFooter.js">
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/News/NewsFooter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="73" />
-          <folding>
-            <element signature="e#1#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login/Login.js">
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/Login/Login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProductDetail/ProductDetail.js">
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/ProductDetail/ProductDetail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
@@ -444,17 +374,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routers/routers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/News/News.js">
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/News/News.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
@@ -464,10 +384,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/News/News.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/News/News.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/OldComponent/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/HomeContainer/HomeContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/index.css" />
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/HomeLeft/HomeLeft.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#1#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Home/Home.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routers/routers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/HomeTop/HomeTop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>

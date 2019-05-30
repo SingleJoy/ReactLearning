@@ -22,9 +22,10 @@ class ToDo extends React.Component{
             array:array
         })
     }
-    inputName(event){
+    inputName(e){
+       console.log(e)
         this.setState({
-            name:event.target.value
+            name:e.target.value
         })
 
     }
@@ -44,13 +45,14 @@ class ToDo extends React.Component{
     addItem(){
         let arrayB=this.state.array;
           arrayB.push({name:this.state.name, age:this.state.age});
-        this.setState({
+          this.setState({
             array:arrayB,
             name:'',
             age:''
-        })
+         })
     }
     render() {
+       const {name,age}=this.state;
         return(
             <div className="list">
                 <ul>{
@@ -67,8 +69,8 @@ class ToDo extends React.Component{
                     })
                 }
                     <li>
-                        <p className='pStyle'><input className='inputDefault' placeholder='input name' onChange={this.inputName}/></p>
-                        <p className='pStyle'><input className='inputDefault' placeholder='input age' onChange={this.inputAge}/></p>
+                        <p className='pStyle'><input value={name} className='inputDefault' placeholder='input name' onChange={this.inputName}/ ></p>
+                        <p className='pStyle'><input value={age}className='inputDefault' placeholder='input age' onChange={this.inputAge}/></p>
                         <div className='pStyle'>
                             <ButtonAdd  addItem={this.addItem}/>
                         </div>

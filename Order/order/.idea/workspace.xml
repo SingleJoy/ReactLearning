@@ -2,21 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fdd27b6-5056-4be1-9d86-946f2838e531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/assets/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/assets/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/assets/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/News/News.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/NewsDetail/NewsDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/src/registerServiceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Order/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Order/Order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/OrderItem/OrderItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/OrderItem/OrderItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ReactRouter/react-router/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/assets/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/assets/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/assets/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/Footer/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/Header/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/Login/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/News/News.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/News/News.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/News/NewsBody.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/News/NewsDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/News/NewsFooter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/News/NewsHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/Product/Product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/components/OldComponent/ProductDetail/ProductDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ReactRouter/react-router/src/routers/routers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/Theme.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Theme/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../antd/antd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../antd/antd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../goods/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../goods/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redux/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../redux/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redux/src/actions/postActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../redux/src/actions/postActions.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +42,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/View/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="270">
               <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -62,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/Order/Order.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
+            <state relative-caret-position="167">
               <caret line="78" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -124,8 +140,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="37" />
-    <option name="y" value="82" />
+    <option name="x" value="720" />
+    <option name="y" value="124" />
     <option name="width" value="1108" />
     <option name="height" value="975" />
   </component>
@@ -135,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,6 +206,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -198,13 +214,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550644005784" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ToDo/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\Administrator\Desktop\React\ReactLearning\Order\order\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -239,23 +256,24 @@
       <workItem from="1550644405313" duration="1695000" />
       <workItem from="1551150697827" duration="1302000" />
       <workItem from="1551682020311" duration="331000" />
+      <workItem from="1557994427552" duration="642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36365000" />
+    <option name="totallyTimeSpent" value="37007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2521692" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2570499" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
@@ -268,6 +286,8 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -366,16 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/App/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/api/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -409,6 +419,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Order/Order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/View/OrderItem/OrderItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -429,10 +449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Order/Order.js">
+    <entry file="file://$PROJECT_DIR$/src/View/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="270">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
