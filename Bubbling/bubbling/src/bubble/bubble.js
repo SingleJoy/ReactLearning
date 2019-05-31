@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-class NewsBody extends Component {
+class bubble extends Component {
 
     render() {
         return (
             <div>
-                <h2>这里是NewsBody组件</h2>
+               <h1>buddle</h1>
             </div>
         )
     }
 }
 
-export default NewsBody;
+export default bubble;
